@@ -5,5 +5,9 @@ password_check.py:
 - Script can be used to check for passwords in automation scripts. Searches for files with extension .py and checks if one of the provided passwords is in it. 
 - Also allows for decryption with fernet cryptography and keyring module.  
 
-access_control_workflow:
+activity_tracker.py:
+- Tracks last activity in django python script and kills the script after 5 minutes of inactivity.
+- Need 
+
+access_control_workflow.jpg:
 - Access control workflow for using python script in health care database.
